@@ -1,0 +1,26 @@
+.card{
+    max-width:500px;
+    border:none;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3 );
+    height: 60vh;
+}
+.featured-section{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 130px;
+
+    background-color: var(--primary-color);
+}
+.card-body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40vh;
+    width: 100%;
+}
+h5{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 100%;
+    height: 30vh;
+}

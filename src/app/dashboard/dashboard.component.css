@@ -1,0 +1,38 @@
+button{
+    align-items: center;
+
+}
+.line{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 3%;
+    margin-left: 1.6rem;
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    justify-content: center;
+    
+
+    
+}
+.card{
+    border: 2px solid orangered;
+    margin: 5px;
+    padding: 5px;
+    
+}
+.card-title{
+    color:brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.card-text{
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn{
+    background-color: blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px;
+}

@@ -1,0 +1,90 @@
+{
+  "signupusers": [
+    {
+      "id": "1fea",
+      "fname": "Savrav",
+      "lname": "Kumar",
+      "email": "sauravktm973@gmail.com",
+      "phone": 97774355667,
+      "password": "123"
+    },
+    {
+      "id": "3f6a",
+      "fname": "qwert",
+      "lname": "qwert",
+      "email": "ganesh@mail.com",
+      "phone": 1234567890,
+      "password": "1234567890"
+    },
+    {
+      "id": "5c04",
+      "fname": "Riya",
+      "lname": "Gupta",
+      "email": "riya@123",
+      "phone": 3279914221,
+      "password": "riya"
+    }
+  ],
+  "post": [
+    {
+      "id": "11e5",
+      "image": "https://png.pngtree.com/png-vector/20220706/ourmid/pngtree-fashion-blogging-beauty-blogger-blog-png-image_5702015.png",
+      "heading": "Hello",
+      "description": "qwertyuiopojhgfdsdfghjkl;lkjhgfdswertyuiolokjhgfdsdfgyhujiklkytrdfghjklkytgrfdfhjkiuytrdcfghjuytrfdghytrfdfghytrfdfgtrfdfgtfrdcgtfrdgtfrdcvgtrfvgtrfdghjkl,mnbfdrtyhfdxcvbgfdfcdrfvcdfvcdertgvfcxderfvcdserfcdserfcdertgvfcdertfgvcdertgfcderftcdertfgcdertgfdertgfcdertgfdrtdfrtgvfcrtgfvdrtgvfrtygfrtygfdrtgvfdrtgfrt5ygfdrtgfdertgfr5tgfdrtgfrtgfdr5tgfdr5tgfder5tgfdr45tgfrtfdrtgfdertfdrtgfdrtgfdrtgfrtgvfrtyhgfrtgfr5tgfdrtgfrtgf",
+      "date": "2024-02-09"
+    },
+    {
+      "id": "0650",
+      "image": "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/03/what-is-a-blog-1.png",
+      "heading": "Blog 2",
+      "description": "This is my 2nd blog.\nywegyufioewf efiowfjwjf we foijweiofjiewjfjwjfjsdjsjf fowrfoefsd w fkel kwef",
+      "date": "2024-02-17"
+    },
+    {
+      "id": "5ff9",
+      "image": "https://spng.pinpng.com/pngs/s/579-5798619_word-blog-hd-png-download.png",
+      "heading": "Blog 3",
+      "description": "dwdwljcdjwlj cdoidjiowejidjsj deoijwecjjwdjsj cijoijjosijjd",
+      "date": "2024-02-23"
+    },
+    {
+      "id": "9b8d",
+      "image": "https://img.lovepik.com/element/45010/2973.png_860.png",
+      "heading": "Blog4",
+      "description": "cdsklcjiwdjcijsdiojijslcksdcdsjlcmldwjlcmdslcjlidjsilcjilds",
+      "date": "2024-02-27"
+    },
+    {
+      "id": "507e",
+      "image": "https://i.pinimg.com/474x/b1/47/86/b147868d8f41d3942b50e6615e961950.jpg",
+      "heading": "Blog5 ",
+      "description": "jdksnckwjxwklsxkwlxwlxkldwklcmkldwmklcmkldwcmklmkwdlcmkldwmcklmlc",
+      "date": "2024-02-23",
+      "category": "Sports"
+    },
+    {
+      "id": "8be8",
+      "image": "https://www.pluralsight.com/content/dam/ps/images/resource-center/blog/legacy-header-images/header-blog-chatgpt-vs-bard.jpg",
+      "heading": "ChatGPT Vs Bard: Which is better for coding?",
+      "description": "For programmers, Generative AI offers tangible benefits. It helps with writing and debugging code, making our busy lives a bit easier as a result. But there are now competing tools like ChatGPT and Bard, which begs the question: which one is best for me to use?\n\nWe compare these tools against each other in the ultimate battle to see which is the most feature-rich tool right now for programming purposes.",
+      "date": "2024-02-07",
+      "category": "Design"
+    },
+    {
+      "id": "9fe7",
+      "image": "https://www.pluralsight.com/content/dam/ps/images/resource-center/blog/legacy-header-images/cloud-computing-challenges-opportunities-public-sector-hub.jpg",
+      "heading": "Cloud computing challenges and opportunities for the public sector",
+      "description": "More and more public sector organizations are turning to the cloud to improve their efficiency, resilience, and overall security stance. But to take full advantage of cloud computing in your agency, you need more than a lift-and-shift approach to your migration. You need cloud workers and a public sector cloud strategy to overcome challenges and drive your mission forward.\n\nHere's what we cover in this article:",
+      "date": "2024-02-07",
+      "category": "Design"
+    },
+    {
+      "id": "7f62",
+      "image": "https://www.pluralsight.com/content/dam/ps/images/resource-center/blog/legacy-header-images/header-blog-vcp-dcv.jpg",
+      "heading": "VCP-DCV: All about VMware's Data Center Virtualization 2023",
+      "description": "Interested in taking the VCP-DCP? Long-time VMware vExpert and Pluralsight author Matt Allford shares everything you need to know about getting this certification.\n\nThe VMware Certified Professional – Data Center Virtualization (VCP-DCV) is VMware’s flagship certification. If you’re interested in getting it, or already studying to take the exam, this article is for you.\n\nThis article overviews what the VCP-DCV is, what to expect (from my personal experience), and the recent and upcoming changes to the certification requirements.",
+      "date": "2024-02-07",
+      "category": "Design"
+    }
+  ]
+}

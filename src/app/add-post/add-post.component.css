@@ -1,0 +1,58 @@
+h1{
+    color: rgb(189, 132, 45);
+    text-align: center;
+    margin: 1%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.add-post{
+    text-align: center;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210629/pngtree-silver-blog-abstract-image-background-image_734020.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 2px solid goldenrod;
+}
+.message_p{
+    color:rgb(27, 184, 27);
+}
+input{
+    width: 27%;
+    height: 5vh;
+    border:2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+textarea{
+    width: 27%;
+    height: 5vh;
+    border:2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+input:hover{
+    border:2px solid rgb(36, 223, 23)
+    
+}
+textarea:hover{
+    border:2px solid rgb(36, 223, 23)
+}
+select{
+    width: 27%;
+    height: 5vh;
+    border:2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    width: 10%;
+    height: 8vh;
+    border:2px solid black;
+    color:rgb(218, 153, 92);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(182, 228, 182);
+}
+select:hover{
+    border:2px solid rgb(36, 223, 23)
+}
+button:hover{
+    border:2px solid rgb(223, 176, 23)
+}

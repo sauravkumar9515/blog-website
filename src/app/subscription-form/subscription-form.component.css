@@ -1,0 +1,25 @@
+.card{
+    background-color: var(--secondary-color);
+    
+    width: 1200px;
+}
+input[type = text], input[type = email]{
+    
+    width:100%;
+}
+
+
+
+.sub-text{
+    width:500px;
+}
+
+.form_dis{
+    display: inline-flex;
+    width: 30rem;
+    padding: 10px;  
+    
+}
+button{
+    justify-content: center;
+}

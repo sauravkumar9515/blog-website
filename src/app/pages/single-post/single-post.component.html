@@ -1,0 +1,29 @@
+<div class="container ">
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="card shadow-effect">
+                <img src="{{productData.image}}" alt="image">
+                <div class="card-body">
+                    <small class="bg-light text-danger text-center"> Design </small>&nbsp;
+
+                    <small class="bg-light text-sucess text-center ml-2"> Featured </small>&nbsp;
+                    <small class="bg-light text-info text-center ml-2"> views - 100,255 </small>&nbsp;
+                    <small class="bg-light text-warning text-center ml-2"> LAST UPDATED {{productData.date}}
+                    </small>&nbsp;
+                    <h1 class="mt-3 mb-3">{{productData.heading}}</h1>&nbsp;
+                    <P>
+                        {{productData.description}}</P>
+
+                </div>
+            </div>
+            <app-comment-form></app-comment-form>
+            <app-comment-list></app-comment-list>
+        </div>
+        <div class="col-md-3" *ngFor="let postlist of postList">
+            <div *ngIf="postlist.id!==productData.id" >
+            <app-post-card [postList]="postlist"></app-post-card>
+        </div>
+    </div>
+
+    </div>
+</div>

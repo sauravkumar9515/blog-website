@@ -1,0 +1,25 @@
+.featured-section{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 130px;
+
+    background-color: var(--primary-color);
+    border: 2px solid black;
+}
+.col{
+    border: 2px solid black;
+    width: 25%;
+    margin: 0%;
+    color: brown;
+   
+    
+}
+h2{
+    font-weight: bold;
+}
+.card{
+    height: 70vh;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.container{
+    margin:0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+
+
+.form-box{
+    width:380px;
+    height: 380px;;
+    padding: 25px;
+    background-color:antiquewhite ;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    z-index:1;
+}

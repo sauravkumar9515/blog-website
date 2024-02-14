@@ -1,0 +1,36 @@
+<app-category-navbar></app-category-navbar>
+<section class="featured-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+                <h2 class="text-white"> Featured Posts</h2>
+                <p class="text-white"></p>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 mt-3" *ngFor="let postlist of postList">
+                <a routerLink='/post/{{postlist.id}}'><app-post-card [postList]="postlist"></app-post-card></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="container mt-5">
+    <div class="col-md-12 text-center">
+        <h2> Latest Posts </h2>
+        <p>lorem ipsum dolor sit amet consector adispising elit</p>
+
+    </div>
+    <div class="row">
+        
+            <div class="col-md-4 mt-3" *ngFor="let postlist of postList" >
+                <app-post-card [postList]="postlist"></app-post-card>
+            </div>
+        
+        <div>
+            <app-subscription-form></app-subscription-form>
+        </div>
+
+    </div>
+</section>

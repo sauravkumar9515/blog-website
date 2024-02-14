@@ -1,0 +1,40 @@
+<div class="add-post">
+    <h1>Add New Product</h1>
+    <p class="message_p">{{addPostMessage}}</p>
+    <form #addPost="ngForm" (ngSubmit)="submit(addPost.value)" class="common-form">
+        <input type="text" class="form-input" placeholder="Enter Post Image URL" name="image" ngModel #image="ngModel"
+        required    
+        />
+        <p><span class="text-danger" *ngIf="image.invalid && image.touched">Enter valid image URL</span> </p>
+        <br>
+        <br>
+        <input type="text" class="form-input" placeholder="Post heading" name="heading" ngModel #heading="ngModel"
+        required 
+        />
+        <br>
+        <p><span *ngIf="heading.invalid && heading.touched" class="text-danger">Invalid Heading</span></p>
+        <textarea class="form-input" placeholder="Description" name="description" ngModel #description="ngModel"
+            required></textarea>
+        <p><span *ngIf="description.invalid && description.touched" class="text-danger">Invalid Description</span></p>
+        <input type="date" class="form-input" name="date" ngModel #category="ngModel" required />
+        <p><span *ngIf="category.invalid && category.touched" class="text-danger">Invalid Category</span></p>
+
+        <select name="category" id="category" ngModel #category="ngModel">
+            <option value="">Choose Category</option>
+            <option value="Design">Design</option>
+            <option value="Inspiration">Inspiration</option>
+            <option value="Sports">Sports</option>
+            <option value="Poltics">Poltics</option>
+            <option value="Entertainment">Entertainment</option>
+
+        </select><br>
+        <p><span class="text-danger" *ngIf="category.invalid && category.touched">Choose Valid Category</span> </p>
+        <br>
+
+
+     
+
+        <button [disabled]="addPost.invalid"  class="form-button">Add Post</button>
+
+    </form>
+</div>
